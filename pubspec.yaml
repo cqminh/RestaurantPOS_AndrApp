@@ -1,0 +1,86 @@
+name: test
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # GetX
+  get:
+  get_storage:
+
+  # OdooRepository require
+  equatable: ^2.0.5
+  hive: ^2.2.3
+  crypto: ^3.0.2
+  path_provider: ^2.0.12
+  mutex: ^3.0.1
+  logger: ^1.3.0
+  http: ^1.1.0
+  connectivity_plus: ^4.0.2
+  flutter_phoenix: ^1.1.1
+
+  # Other used library
+  rounded_loading_button: ^2.1.0
+  fluttertoast: ^8.1.1  
+  flutter_localization: ^0.1.10
+  syncfusion_localizations: ^21.1.38
+  dropdown_button2: ^1.9.3
+  loading_animation_widget:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: MontserratBlack
+      fonts:
+        - asset: assets/fonts/Montserrat-Black.ttf
+    - family: MontserratBlackItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-BlackItalic.ttf
+    - family: MontserratBold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+    - family: MontserratBoldItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-BoldItalic.ttf
+    - family: MontserratItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-Italic.ttf
+    - family: MontserratLight
+      fonts:
+        - asset: assets/fonts/Montserrat-LightItalic.ttf
+    - family: MontserratLight
+      fonts:
+        - asset: assets/fonts/Montserrat-LightItalic.ttf
+    - family: Medium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+    - family: MediumItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-MediumItalic.ttf
+    - family: Regular
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+    - family: Thin
+      fonts:
+        - asset: assets/fonts/Montserrat-Thin.ttf
+    - family: ThinItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-ThinItalic.ttf
+    
+  assets:
+    - assets/images/
+    - assets/videos/
